@@ -18,6 +18,7 @@ bands.sort((a, b) => {
 const container = document.querySelector(".container");
 
 const ul = document.createElement("ul");
+ul.id = `band`;
 
 bands.forEach((band) => {
 	const li = document.createElement("li");
